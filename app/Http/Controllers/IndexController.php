@@ -10,19 +10,17 @@ class IndexController extends Controller
 {
   public function index() 
   {
-    $catalog = new Catalog();
-
+    $catalog = new Catalog;
     return inertia('Main', [
-      'catalog'=>$catalog
+      'catalog'=>$catalog->all()
     ]);
   }
 
   public function catalog() 
   {
-    $catalog = new Catalog();
-    // $catalog = DB::table('catalog')->select('title', 'text')->get();
+    $catalog = new Catalog;
     return inertia('Catalog', [
-      'catalog'=>$catalog
+      'catalog'=>$catalog->all()
     ]);
   }
 }

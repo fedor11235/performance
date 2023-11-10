@@ -15,7 +15,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-      $test = Catalog::factory(4)->make();
-      dd($test);
+      Catalog::factory(4)->create();
     }
 }
