@@ -10,7 +10,8 @@
         "inertiajs/inertia-laravel": "^0.6.11",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
-        "laravel/tinker": "^2.7"
+        "laravel/tinker": "^2.7",
+        "laravel/ui": "^4.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -58,7 +59,7 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "github-oauth": {
-          "github.com": ""
+          "github.com": "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"
         },
         "allow-plugins": {
             "pestphp/pest-plugin": true
