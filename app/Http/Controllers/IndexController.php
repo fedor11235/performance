@@ -9,11 +9,11 @@ class IndexController extends Controller
 {
   public function index() 
   {
-    // return Inertia::render('Home', [
-    //   'title' => 'Home'
-    // ]);
-    return inertia('Home', [
-      'title' => 'Home'
-    ]);
+    return inertia('Main', []);
+  }
+
+  public function catalog() 
+  {
+    return inertia('Catalog', []);
   }
 }
